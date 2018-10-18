@@ -7,3 +7,25 @@ body
 .navbar {
     background-color: #B3BDBD !important;
 }
+
+/* fixes size of images */
+.image {
+    position: relative;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
