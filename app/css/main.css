@@ -6,16 +6,25 @@ body
 
 
 /* navar */
-
 .navbar {
     background-color: #F9F2D8 !important;
+    padding-bottom: 0%;
 }
 
 .nav-link
 {
-    margin: 1em 1.2em;
+    margin: 0 1.2em;
     font-size: 1.4em;
-}d
+    padding-bottom: 0.8em;
+    border-bottom: 0.3em solid #F9F2D8;
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.nav-link:hover{
+    border-bottom: 0.3em solid #b8bdff;
+}
 
 /* fixes size of images */
 .image {
