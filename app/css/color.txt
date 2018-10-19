@@ -1,0 +1,8 @@
+
+
+слонова кост = #F9F2D8
+жълто = #fcfc7e
+светло сиво = #b8b8af
+
+
+beach color pallete = #96ceb4 • #ffeead • #ff6f69 • #ffcc5c • #88d8b0

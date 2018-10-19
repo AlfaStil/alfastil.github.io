@@ -1,11 +1,11 @@
 
 body
 {
-    background-color: 	rgb(196, 209, 150);
+    background-color: 	#b8b8af;
 }
 
 .navbar {
-    background-color: #B3BDBD !important;
+    background-color: #F9F2D8 !important;
 }
 
 /* fixes size of images */
@@ -15,7 +15,7 @@ body
 
 /* red line for services */
 .red-line-bottom{
-	background: #B3BDBD !important;
+	background: #fcfc7e !important;
 	color:#ffffff;
 	padding-bottom: 1em;
     padding-top: 30px;
@@ -25,15 +25,6 @@ body
 	text-align: center;
 	color:black !important;
 }
-
-
-
-
-
-
-
-
-
 
 /* Container holding the image and the text */
 .container {
