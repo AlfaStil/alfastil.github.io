@@ -13,6 +13,12 @@ body
     position: relative;
 }
 
+/* form in contacts */
+.form-group
+{
+    width: 50%;
+}
+
 /* footer */
 #footer-main {
     background-color: #fcfc7e;
@@ -21,4 +27,6 @@ body
 .footer-copyright {
     background-color: #f6ff54;
 }
+
+
 
