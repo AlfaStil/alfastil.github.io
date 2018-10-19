@@ -13,12 +13,13 @@ body
     position: relative;
 }
 
-/* red line for services */
-.red-line-bottom{
-	background: #fcfc7e !important;
-	color:#ffffff;
-	padding-bottom: 1em;
-    padding-top: 30px;
+/* footer */
+#footer-main {
+    background-color: #fcfc7e;
+}
+
+.footer-copyright {
+    background-color: #f6ff54;
 }
 
 .text-bottom{
