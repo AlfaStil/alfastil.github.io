@@ -14,12 +14,20 @@ body
 .nav-link
 {
     margin: 0 1.2em;
-    font-size: 1.4em;
     padding-bottom: 0.8em;
     border-bottom: 0.3em solid #F9F2D8;
-    transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;  
+
+    transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+}
+
+.navbar-brand
+{
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-link:hover{
