@@ -1,7 +1,7 @@
 
 body
 {
-    background-color: 	#B3BDBD;
+    background-color: 	rgb(196, 209, 150);
 }
 
 .navbar {
@@ -13,10 +13,34 @@ body
     position: relative;
 }
 
+/* red line for services */
+.red-line-bottom{
+	background: #B3BDBD !important;
+	color:#ffffff;
+	padding-bottom: 1em;
+    padding-top: 30px;
+}
+
+.text-bottom{
+	text-align: center;
+	color:black !important;
+}
+
+
+
+
+
+
+
+
+
+
 /* Container holding the image and the text */
 .container {
-    position: relative;
     
+    position: relative;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
 }
 
 /* Bottom right text */
@@ -26,6 +50,6 @@ body
     right: 20px;
     background-color: black;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
