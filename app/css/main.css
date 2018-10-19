@@ -22,3 +22,13 @@ body
     background-color: #f6ff54;
 }
 
+/*navbar spaces and size of letters*/
+.navbar-nav {
+    padding-left:200px;
+    padding-right:200px;
+  }
+  .navbar-nav > a {
+    margin-left:30px;
+    margin-right:30px;
+    font-size: 20px;
+  }
