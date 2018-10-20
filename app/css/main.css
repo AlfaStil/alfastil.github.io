@@ -56,7 +56,9 @@ body
     background-color: #acacac;
     
 }
-
+#brand-name {
+    margin-bottom: -10px;
+}
 /* black box in the middle in Начало */
 .hero-text{
     position: absolute;
