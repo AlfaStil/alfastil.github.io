@@ -1,11 +1,36 @@
 
+/* MAIN */
 body
 {
     background-color: #fcfc7e;
 }
 
+/* fixes size of images */
+.image {
+    position: relative;
+} 
+  .hero-image {
+    background-image: url("assets/images/homepage_image.jpg");
+    background-color: #cccccc;
+    height: 50em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
 
-/* navar */
+
+
+/* NAVING BAR */
 .navbar {
     background-color: #F9F2D8 !important;
     padding-bottom: 0%;
@@ -29,24 +54,21 @@ body
     border-bottom: 0.3em solid #b8bdff;
 }
 
+.active{
+    border-bottom: 0.3em solid #b8bdff;
+}
+
 .navbar-brand
 {
     font-family: 'Righteous', cursive;
     font-weight: bold;
 }
 
-/* fixes size of images */
-.image {
-    position: relative;
-}
 
-/* form in contacts */
-.form-group
-{
-    width: 50%;
-}
 
-/* footer */
+
+
+/* FOOTER */
 #footer-main {
     background-color: #b8b8af;
     
@@ -69,13 +91,14 @@ body
 }
 
 
-  
+
+
   /*Animation for middle box START */
   .hero-text h1 {
     color: black;
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    /* border-right: .15em solid orange; The typwriter cursor */
+    border-right: .15em solid orange;
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
@@ -91,9 +114,9 @@ body
   }
   
   /* The typewriter cursor effect */
-  /* @keyframes blink-caret {
+  @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
-  } */
+  }
 
   /* animation box END */
