@@ -25,13 +25,14 @@ body
 	-moz-transition: all 0.2s;
 }
 
-.navbar-brand
-{
-    font-family: 'Playfair Display', serif;
-}
-
 .nav-link:hover{
     border-bottom: 0.3em solid #b8bdff;
+}
+
+.navbar-brand
+{
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
 }
 
 /* fixes size of images */
