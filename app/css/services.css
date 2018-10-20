@@ -22,9 +22,12 @@ div.gallery img {
     height: auto;
 }
 
-div.desc {
-    padding: 15px;
+.desc {
+    padding: 5px;
     text-align: center;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    
 }
 
 * {
