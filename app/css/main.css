@@ -10,7 +10,7 @@ body
     position: relative;
 } 
   .hero-image {
-    background-image: url("assets/images/homepage_image.jpg");
+    background-image: url("../../assets/images/homepage_image.jpg");
     background-color: #cccccc;
     height: 50em;
     background-position: center;
@@ -27,7 +27,6 @@ body
     transform: translate(-50%, -50%);
     color: black;
   }
-
 
 
 /* NAVING BAR */
