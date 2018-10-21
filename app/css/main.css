@@ -69,8 +69,8 @@ body
 
 /* FOOTER */
 #footer-main {
-    background-color: #b8b8af;
-    
+    /* background-color: #b8b8af; */
+    background-color: #F9F2D8
 }
 
 .footer-copyright {
@@ -86,7 +86,7 @@ body
     
     /* background-color: black; */
     opacity: 0.7;
-    color: greenyellow;
+    color: #F9F2D8;
 }
 
 
