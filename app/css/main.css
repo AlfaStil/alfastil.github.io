@@ -12,12 +12,18 @@ body
     background: #b8bdff; /* Gecko Browsers */
   }
 
+
+.letters {
+    font-weight: bold;
+    font-size: 2.1em;
+}
+
 /* fixes size of images */
 .image {
     position: relative;
 } 
   .hero-image {
-    background-image: url("../../assets/images/homepage_image.jpg");
+    background-image: url("../../assets/images/homepage.png");
     background-color: #cccccc;
     height: 50em;
     background-position: center;
