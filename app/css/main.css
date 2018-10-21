@@ -2,8 +2,15 @@
 /* MAIN */
 body
 {
-    background-color: #fcfc7e;
+    background-color: #fafa9e;
 }
+
+::selection {
+    background: #b8bdff; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #b8bdff; /* Gecko Browsers */
+  }
 
 /* fixes size of images */
 .image {
@@ -70,12 +77,31 @@ body
 /* FOOTER */
 #footer-main {
     /* background-color: #b8b8af; */
-    background-color: #F9F2D8
+    background-color:  #caf7a5;
+    font-weight: bold;
+    color: #446340;
 }
 
 .footer-copyright {
-    background-color: #acacac;
-    
+    background-color: #bdeea3;
+}
+
+.footer-text {
+    color: #446340;
+    font-weight: bold;
+}
+
+.link
+{
+    color:#9c6679;
+    transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+}
+
+.link:hover{
+    color: #684350;
+    text-decoration: none;
 }
 #brand-name {
     margin-bottom: -10px;
