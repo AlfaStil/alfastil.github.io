@@ -23,3 +23,16 @@
     transform: translate(-50%, -50%);
     color: white;
   }
+.text-left{
+  float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.text-right{
+  float: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  
+}
