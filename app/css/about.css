@@ -48,7 +48,24 @@
 .alignright {
 	float: right;
 } */
+
+
 .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.flex-container .box {
+  
+  width: 50%;
+  margin: 80px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+/* .flex-container {
   display: flex;
   flex-wrap: nowrap;
   background-color:  #bdeea3;
@@ -61,4 +78,4 @@
   text-align: center;
   line-height: 75px;
   font-size: 20px;
-}
+} */
