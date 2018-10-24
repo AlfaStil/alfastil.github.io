@@ -25,7 +25,7 @@ body
   .hero-image {
     background-image: url("../../assets/images/homepage.png");
     background-color: #cccccc;
-    height: 20em;
+    height: 50em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ body
     border-bottom: 0.3em solid #F9F2D8;
 
     font-size: 1.4em;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;  
 
     transition: all 0.2s;
 	-webkit-transition: all 0.2s;
@@ -72,10 +72,16 @@ body
 
 .navbar-brand
 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Righteous';
+    font-weight: bold;
 }
 
-
+#cyrillic
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+}
 
 
 
