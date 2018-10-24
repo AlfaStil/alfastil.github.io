@@ -53,7 +53,7 @@ body
     margin: 0 1.2em;
     padding-bottom: 0.8em;
     border-bottom: 0.3em solid #F9F2D8;
-
+    position: relative;
     font-size: 1.4em;
     font-family: 'Merriweather', serif;
 
