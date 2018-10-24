@@ -46,6 +46,7 @@ body
 .navbar {
     background-color: #F9F2D8 !important;
     padding-bottom: 0%;
+    width: 100%
 }
 
 .nav-link
@@ -53,6 +54,7 @@ body
     margin: 0 1.2em;
     padding-bottom: 0.8em;
     border-bottom: 0.3em solid #F9F2D8;
+    width: 100%;
 
     font-size: 1.4em;
     font-family: 'Merriweather', serif;
