@@ -1,4 +1,12 @@
 
+/* .navbar-brand
+{
+    font-family: 'Righteous';
+    font-weight: bold;
+}
+ */
+
+
 /* MAIN */
 body
 {
@@ -29,7 +37,7 @@ body
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    position: relative;
   }
   
   .hero-text {
@@ -72,9 +80,10 @@ body
 
 .navbar-brand
 {
-    font-family: 'Righteous';
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 }
+
 
 #cyrillic
 {
@@ -82,7 +91,6 @@ body
     font-weight: bold;
     color: black;
 }
-
 
 
 /* FOOTER */
