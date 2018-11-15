@@ -23,3 +23,29 @@
     transform: translate(-50%, -50%);
     color: #F9F2D8;
   }
+
+.logos {
+  margin-top: 20px;
+  height: 100px;
+  width:  150px;
+}
+
+hr.style8 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
