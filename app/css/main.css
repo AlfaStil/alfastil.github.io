@@ -72,12 +72,17 @@ body
 
 .navbar-brand
 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
     font-weight: bold;
 }
 
 
-
+#cyrillic
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+}
 
 
 /* FOOTER */
